@@ -1,0 +1,18 @@
+﻿<Window x:Class="Page_33.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <!-- No idea what is going on here. I believe I've created a collection
+         Not sure how to bind it yet-->
+    <collections:Hashtable x:Name="blah">
+        <sys:Int32 x:Key="key1">
+            7
+        </sys:Int32>
+        <sys:Int32 x:Key="key2">
+            23
+        </sys:Int32>
+    </collections:Hashtable>
+
+</Window>

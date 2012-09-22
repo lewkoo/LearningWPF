@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 91", "Page 91\Page 91.csproj", "{3DD3B2BC-F50C-45DE-937B-275F62704684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 98", "Page 98\Page 98.csproj", "{512F19CF-2B6B-4CBE-A843-1BE5FDAF0B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD3B2BC-F50C-45DE-937B-275F62704684}.Debug|x86.ActiveCfg = Debug|x86
+		{3DD3B2BC-F50C-45DE-937B-275F62704684}.Debug|x86.Build.0 = Debug|x86
+		{3DD3B2BC-F50C-45DE-937B-275F62704684}.Release|x86.ActiveCfg = Release|x86
+		{3DD3B2BC-F50C-45DE-937B-275F62704684}.Release|x86.Build.0 = Release|x86
+		{512F19CF-2B6B-4CBE-A843-1BE5FDAF0B13}.Debug|x86.ActiveCfg = Debug|x86
+		{512F19CF-2B6B-4CBE-A843-1BE5FDAF0B13}.Debug|x86.Build.0 = Debug|x86
+		{512F19CF-2B6B-4CBE-A843-1BE5FDAF0B13}.Release|x86.ActiveCfg = Release|x86
+		{512F19CF-2B6B-4CBE-A843-1BE5FDAF0B13}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

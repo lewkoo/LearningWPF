@@ -1,0 +1,15 @@
+﻿<Window x:Class="Page_91.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <Label>First group of radiobuttons</Label>
+        <RadioButton GroupName="A">Item 1</RadioButton>
+        <RadioButton GroupName="A">Item 2</RadioButton>
+        <RadioButton GroupName="A">Item 3</RadioButton>
+        <Label>Second group of radio buttons</Label>
+        <RadioButton GroupName="B">Item 1</RadioButton>
+        <RadioButton GroupName="B">Item 2</RadioButton>
+        <RadioButton GroupName="B" Padding="5,0,0,10">Item 3</RadioButton>
+    </StackPanel>
+</Window>
