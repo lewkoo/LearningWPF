@@ -1,0 +1,20 @@
+﻿<Window x:Class="Page_112.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <Menu>
+        <MenuItem Header="File">
+            <MenuItem Header="New..."/>
+            <MenuItem Command="Open"/>
+            <Separator/>
+            <MenuItem Header="Send to...">
+                <MenuItem Header="My Documents"/>
+                <MenuItem Header="Mail Recipient"/>
+            </MenuItem>
+            <Separator/>
+            <MenuItem Command="Close"/>
+        </MenuItem>
+        <MenuItem Header="Edit"/>
+        <MenuItem Header="View"/>
+    </Menu>
+</Window>
