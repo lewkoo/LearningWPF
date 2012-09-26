@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace SDKSample
 {
@@ -22,6 +23,12 @@ namespace SDKSample
 		public MainWindow()
 		{
 			InitializeComponent();
+
+            ObservableCollection<SquareCube> listOfSquareCubes = new ObservableCollection<SquareCube>();
+            for (int i = 0; i < 100; i++)
+            {
+                listOfSquareCubes.Add(new SquareCube(i));
+            }
 		}
 	}
 }
